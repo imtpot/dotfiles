@@ -1,0 +1,22 @@
+[settings]
+experimental = true
+env_file = ".env"
+
+[tools]
+usage = "latest"
+
+python = "latest"
+go = "latest"
+node = "latest"
+
+kubectl = "latest"
+kubectx = "latest"
+helm = "latest"
+
+pulumi = "latest"
+terraform = "latest"
+
+talos = "latest"
+istioctl = "1.19"
+vault = "latest"
+

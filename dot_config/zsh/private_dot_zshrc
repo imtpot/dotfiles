@@ -1,0 +1,10 @@
+# Load Antidote
+source "$(brew --prefix)/opt/antidote/share/antidote/antidote.zsh"
+export ANTIDOTE_HOME=~/.cache/antidote
+antidote load ${ZDOTDIR:-~}/.zplugins
+
+# Shell integrations
+source <(fzf --zsh)
+eval "$(mise activate zsh)"
+eval "$(starship init zsh)"
+
